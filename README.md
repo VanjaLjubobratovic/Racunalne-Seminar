@@ -9,3 +9,6 @@ Repozitorij za rad na seminaru iz računalnih vještina.
 
 ## Tema: 
 Usporedba Git i Mercurial sustava za upravljanje inačicama
+
+## Izvori:
+Dodati izvore
