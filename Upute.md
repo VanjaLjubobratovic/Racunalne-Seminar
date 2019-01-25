@@ -17,3 +17,5 @@ https://www.mercurial-scm.org/wiki/UnderstandingMercurial
 https://git-scm.com/docs/user-manual.html
 
 https://confluence.atlassian.com/get-started-with-bitbucket/git-and-mercurial-commands-860009656.html
+
+https://www.perforce.com/blog/vcs/git-vs-mercurial-how-are-they-different
