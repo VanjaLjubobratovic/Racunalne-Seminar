@@ -13,3 +13,5 @@ https://www.mercurial-scm.org/guide
 https://www.mercurial-scm.org/wiki/Tutorial
 
 https://www.mercurial-scm.org/wiki/UnderstandingMercurial
+
+https://git-scm.com/docs/user-manual.html
