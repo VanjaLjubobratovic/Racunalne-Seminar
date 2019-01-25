@@ -7,3 +7,4 @@ naredbe i principe korištenja Mercurial sustava i usporediti ih sa Git-om
 
 ## Korisni linkovi
 To be added...
+https://www.mercurial-scm.org/guide
