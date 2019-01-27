@@ -47,12 +47,8 @@ Upravljanje verzijama podrazumijeva baratanje promjenama nad nekim skupom datote
 \end{itemize}
 \end{frame}
 \begin{frame}{Naredbe u Mercurial-u}
-Naredbe u Gitu i Mercurialu su vrlo slične. Glavna razlika je naravno umjesto započivanja svake naredbe sa "git" u Gitu, u Mercurialu naredbe započinjemo sa "hg". Većinu naredbi koje imamo u gitu imamo i u Mercurialu samo sa malo drugčijom sintaksom(zapisom). Kao na primjer u gitu: "git remote add origin<server-url>" i u Mercurialu: "hg push <server-url>". Obje naredbe služe za povezivanje našeg lokalnog repozitorija na udaljeni server i kao što vidite razilika u sintaksi nije velika. 
+Naredbe u Gitu i Mercurialu su vrlo slične. Glavna razlika je naravno umjesto započivanja svake naredbe sa "git" u Gitu, u Mercurialu naredbe započinjemo sa "hg". Većinu naredbi koje imamo u gitu imamo i u Mercurialu samo sa malo drugčijom sintaksom(zapisom). Kao na primjer u gitu: "git remote add origin\textit{  server-url}" i u Mercurialu: "hg push \textit{server-url}". Obje naredbe služe za povezivanje našeg lokalnog repozitorija na udaljeni server i kao što vidite razilika u sintaksi nije velika. 
 
-\end{frame}
-
-\begin{frame}{Grane i Bookmarkovi}
-Vrlo često na svom projektu želimo isprobati nešto novo, ali ne želimo to raditi na originalnoj verziji programa jer nismo sigurni što točno želimo i ako je to uopće moguće. U tom slučaju koristiti ćemo različite grane. Grane su kao što ime govori kada se granamo s glavnog projekta te radimo nešto neovisno o njemu. Kasnije te grane možemo spajati, brisati i još par stvari. No u Mercurialu nije točno tako. U Mercurialu su grane mnogo "skuplje" od grana u gitu. U gitu grana je pokazivač na određeni commit dok je u Mercurialu grana povezana sa commitom te se nemože brisati ni preimenovati. Zato se u Mercurialu mogu korisiti Bookmarkovi. Bookmarkovi rade na istomp principu kao i grane u gitu.
 \end{frame}
 
 \begin{frame}{Naredbe u Mercurial-u i Git-u}
@@ -77,7 +73,7 @@ Git: \newline
     \item git add
 \end{itemize}
 \end{multicols}
-
+Kao što se u primjerima može vidjeti naredbe su gotovo iste
 \end{frame}
 
 \begin{frame}{Git vs Mercurial Workflow}
@@ -86,6 +82,10 @@ Git: \newline
     \includegraphics[width = 310px]{workflows.png}
     \label{fig:my_label}
 \end{figure}
+\end{frame}
+
+\begin{frame}{Grane i Bookmarkovi}
+Vrlo često na svom projektu želimo isprobati nešto novo, ali ne želimo to raditi na originalnoj verziji programa jer nismo sigurni što točno želimo i ako je to uopće moguće. U tom slučaju koristiti ćemo različite grane. Grane su kao što ime govori kada se granamo s glavnog projekta te radimo nešto neovisno o njemu. Kasnije te grane možemo spajati, brisati i još par stvari. No u Mercurialu nije točno tako. U Mercurialu su grane mnogo "skuplje" od grana u gitu. U gitu grana je pokazivač na određeni commit dok je u Mercurialu grana povezana sa commitom te se nemože brisati ni preimenovati. Zato se u Mercurialu mogu korisiti Bookmarkovi. Bookmarkovi rade na istomp principu kao i grane u gitu.
 \end{frame}
 
 \begin{frame}{Upotreba Git-a i Mercurial-a}
