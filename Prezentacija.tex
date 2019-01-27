@@ -13,10 +13,10 @@
 \usepackage[english]{babel}
 \usepackage[utf8x]{inputenc}
 
-\title[Your Short Title]{Your Presentation}
-\author{You}
-\institute{Where You're From}
-\date{Date of Presentation}
+\title[Your Short Title]{Usporedba Git i Mercurial sustava za upravljanje inačicama}
+\author{Vanja Ljubobratović, Matej Katalinić i Karlo Graf}
+\institute{Tehnički Fakultet Rijeka}
+\date{27/1/2019.}
 
 \begin{document}
 
@@ -50,12 +50,20 @@ Upravljanje verzijama podrazumijeva baratanje promjenama nad nekim skupom datote
 \end{itemize}
 \end{frame}
 \begin{frame}{Naredbe u Mercurialu}
-Naredbe u Gitu i Mercurialu su vrlo slične. Glavna razlika je naravno umjesto započivanja svake naredbe sa "git" u Gitu, u Mercurialu naredbe započinjemo sa "hg". Većinu naredbi koje imamo u gitu imamo i u Mercurialu samo sa malo drugčijom sintaksom(zapisom). Kao na primjer u gitu: "git remote add origin<server-url>" i u Mercurialu: "hg push <server-url>". Obje naredbe služe za povezivanje našeg lokalnog repozitorija na udaljeni server i kao što vidite razilika u sintaksi je velika. 
+Naredbe u Gitu i Mercurialu su vrlo slične. Glavna razlika je naravno umjesto započivanja svake naredbe sa "git" u Gitu, u Mercurialu naredbe započinjemo sa "hg". Većinu naredbi koje imamo u gitu imamo i u Mercurialu samo sa malo drukčijom sintaksom(zapisom). Kao na primjer u gitu: "git remote add origin server-url" i u Mercurialu: "hg push server-url". Obije naredbe služe za povezivanje našeg lokalnog repozitorija na udaljeni server i kao što vidite razilika u sintaksi je velika. 
 
 \end{frame}
 
 \begin{frame}{Grane i Bookmarkovi}
 Vrlo često na svom projektu želimo isprobati nešto novo, ali ne želimo to raditi na originalnoj verziji programa jer nismo sigurni što točno želimo i ako je to uopće moguće. U tom slučaju koristiti ćemo različite grane. Grane su kao što ime govori kada se granamo s glavnog projekta te radimo nešto neovisno o njemu. Kasnije te grane možemo spajati, brisati i još par stvari. No u Mercurialu nije točno tako. U Mercurialu su grane mnogo "skuplje" od grana u gitu. U gitu grana je pokazivač na određeni commit dok je u Mercurialu grana povezana sa commitom te se nemože brisati ni preimenovati. Zato se u Mercurialu mogu korisiti Bookmarkovi. Bookmarkovi rade na istomp principu kao i grane u gitu.
 \end{frame}
+\begin{frame}{Korištenje}
+Kada uspoređujemo Git i Mercurial jedna od glavnih razlika je u količini znanja koje je potrebno da se koriste. Git je kompleksniji i zahtjeva od vas i vašeg tima da ga dobro poznaju prije nego li ga mogu s sigurnošću koristiti. S Gitom jedna pogrešta od vas ili vaših kolega vas može puno stajati. Glavni primjer bi bila naredba rebase s kojom mijenjamo povijest što nije uvijek dobro. Gitova dokumentacija je isto teža za razumijeti nego Mercurialova. Mercurialova sintaksa je jednostavnija i najbitnije od svega kada koristite Mercurial nemorate prevište razmišljati o njemu dok ćete uz git provesti podosta vremena na forumima. No nakon što ga naučite git će vam pružati veću fleksibilnost.
+\end{frame}
+\begin{frame}{Sigurnost}
+Git i Mercurial su oboje, na svoj način, sigurniji jedno od drugog. Sigurnost u nijma ovisi o razini iskustva. Mercurial je sigurniji za nove korisnike ali Git može ponuditi načine za dodatno pojačanje sigurnosti (ako znate što radite). Mercurial vam ne dozvoljava da mijenjate povijest dok Git dopušta developerima da mijenjaju povijest verzija. Kao što je već spomenuto mijenjanje povijesti može biti vrlo loše. U Mercurialu možemo promijeniti samo zadnji commit. Git sprema svaku promjenu na 30 dana te u tih 30 dana ju možemo mijenjati. Te promijene se mogu raditi samo lokalno jer se te promjene same po sebi ne guraju na repozitorij. Nakon 30 dana više se nije moguće vratiti.
+\end{frame}
+\begin{frame}{Zaključak}
+Git i Mercurial su vrlo slični i imaju svoje koristi i nedostatke no u danšjnem tržištu Git je postao standard te ga koristi većina developera. Mercurial je lakši za naučiti i koristiti ali nažalost to je korisno samo onima koji se ne planiraju ozbiljno time baviti. Danas se Mercurial vrlo rijetko koristi te možemo sa sigurnošću reći da je Git bolji te ako se planirate baviti programiranjem ili nečim sličnim Git je pravi izbor za vas.
+\end{frame}
 \end{document}
-
